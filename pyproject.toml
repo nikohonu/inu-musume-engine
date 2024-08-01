@@ -1,0 +1,27 @@
+[project]
+name = "inu-musume-engine"
+version = "0.1.0"
+description = "Simple game engine based on pygame"
+authors = [
+    {name = "nikohonu", email = "nikohonu@proton.me"},
+]
+dependencies = [
+    "pygame>=2.6.0",
+]
+requires-python = ">=3.12"
+readme = "README.md"
+license = {text = "MIT"}
+
+[build-system]
+requires = ["pdm-backend"]
+build-backend = "pdm.backend"
+
+
+[tool.pdm]
+distribution = true
+
+[tool.pdm.dev-dependencies]
+dev = [
+    "basedpyright>=1.15.1",
+    "ruff>=0.5.5",
+]
