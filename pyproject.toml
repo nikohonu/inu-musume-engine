@@ -25,3 +25,6 @@ dev = [
     "basedpyright>=1.15.1",
     "ruff>=0.5.5",
 ]
+
+[tool.basedpyright]
+typeCheckingMode = "all"
