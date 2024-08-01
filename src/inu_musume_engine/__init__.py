@@ -1,4 +1,12 @@
-import pygame
-
-Vector2 = pygame.Vector2
-image = pygame.image
+from inu_musume_engine import display as display
+from inu_musume_engine import event as event
+from inu_musume_engine import image as image
+from inu_musume_engine import key as key
+from inu_musume_engine import math as math
+from inu_musume_engine import sprite as sprite
+from inu_musume_engine import time as time
+from inu_musume_engine.base import init as init
+from inu_musume_engine.base import quit as quit
+from inu_musume_engine.constants import QUIT as QUIT
+from inu_musume_engine.constants import Key as Key
+from inu_musume_engine.surface import Surface as Surface
