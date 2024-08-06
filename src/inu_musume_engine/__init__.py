@@ -1,15 +1,27 @@
+from pygame import K_KP_ENTER as K_KP_ENTER
+from pygame import K_SPACE as K_SPACE
+from pygame import KEYDOWN as KEYDOWN
 from pygame import QUIT as QUIT
 from pygame import RESIZABLE as RESIZABLE
 from pygame import USEREVENT as USEREVENT
 from pygame import WINDOWRESIZED as WINDOWRESIZED
+from pygame import Color as Color
+from pygame import K_c as K_c
+from pygame import Rect as Rect
 from pygame import Surface as Surface
+from pygame import color as color
 from pygame import display as display
+from pygame import draw as draw
 from pygame import event as event
 from pygame import image as image
 from pygame import init as init
 from pygame import key as key
 from pygame import math as math
+from pygame import mixer as mixer
 from pygame import quit as quit
 from pygame import sprite as sprite
 from pygame import time as time
 from pygame import transform as transform
+
+from inu_musume_engine.base import Size2f as Size2f
+from inu_musume_engine.base import Size2i as Size2i
